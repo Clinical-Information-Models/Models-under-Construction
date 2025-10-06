@@ -1,0 +1,87 @@
+<clinicaltemplate>
+   <metadata>
+       <item id="m010" label="Name">nl.ggznederland.intensiteit-behandeling#42</item>
+       <item id="m020" label="Id">--</item>
+       <item id="m025" label="Revision History" markup="textile">--</item>
+       <item id="m030" label="LifecycleStatus">001</item>
+       <item id="m040" label="PublicationStatus">first draft</item>
+       <item id="m050" label="PublicationDate">--</item>
+       <item id="m052" label="DeprecatedDate">--</item>
+       <item id="m054" label="Supersedes">--</item>
+       <item id="m056" label="CreationDate">--</item>
+       <item id="m058" label="RevisionDate">--</item>
+       <item id="m060" label="Type">--</item>
+       <item id="m070" label="DescriptionLanguage">--</item>
+       <item id="m080" label="EndorsingAuthorityName">--</item>
+       <item id="m082" label="EndorsingAuthorityAddress">--</item>
+       <item id="m084" label="EndorsingAuthorityTelecom">--</item>
+       <item id="m090" label="ContentAuthorList">--</item>
+       <item id="m100" label="Contact Information">--</item>
+       <item id="m110" label="ModelerList">--</item>
+       <item id="m120" label="ReviewerList">--</item>
+       <item id="m130" label="CoderList">--</item>
+       <item id="m140" label="KeywordList">--</item>
+       <item id="m150" label="ContactInformation.Name">--</item>
+       <item id="m160" label="ContactInformation.Address">--</item>
+       <item id="m170" label="ContactInformation.Telecom">--</item>
+       <item id="m180" label="Version">--</item>
+       <item id="m200" label="DefinitionCode">--</item>
+       <item id="m210" label="DefinitionCode1">--</item>
+       <item id="m220" label="DefinitionCode2">--</item>
+       <item id="m300" label="template_id">nlggznederlandintensiteit-behandeling42</item>
+       <item id="m330" label="note">Uit gepast gebruik de intensiteit van de behandeling: ambulant, dagopname, verblijf.</item>
+   </metadata>
+   <documentation>
+       <item id="d010" label="Concept" markup="textile">De intensiteit van de behandeling vormt een onderdeel van de Basisregistratieset gepast gebruik per pati&#235;nt. Het is onderdeel van de diagnostiekfase en mond uit in een behandelplan waarin met de pati&#235;nt wordt afgesproken het verwachte aantal en soort behandelingen en evaluatiemomenten.
+
+</item>
+       <item id="d015" label="Mindmap" markup="textile">Geen</item>
+       <item id="d020" label="Purpose" markup="textile">Intensiteit van de behandeling dient zo te worden gekozen dat de zorg voldoet aan de stand van wetenschap en praktijk (effectieve zorg). En de verzekerde moet redelijkerwijs zijn aangewezen op zorg gezien zijn gezondheidssituatie (medische noodzaak). Dit tezamen vormt een onderbouwing van de rechtmatigheid van zorg. </item>
+       <item id="d025" label="Patient Population" markup="textile">Geldt voor alle ggz pati&#235;nten.</item>
+       <item id="d030" label="Evidence Base" markup="textile">In het Bestuurlijk Akkoord ggz 2019 tot en met 2022 is afgesproken dat partijen onder begeleiding van het Zorginstituut Nederland komen met een voorstel om de administratieve lasten voortvloeiend uit het Model Kwaliteitsstatuut ggz terug te dringen en flexibiliteit / taakherschikking van beroepen te bevorderen in verband met de wachttijdproblematiek. 
+
+Afspraken voortkomend uit dit voorstel zullen in lijn gebracht moeten worden met dit advies. Een basisregistratieset gepast gebruik waaraan de zorgverlener zich dient te houden is onderdeel van deze afspraken.  Het op eenvoudige wijze registreren van de intensiteit van de behandeling maakt daar deel van uit. In het kader van gepast gebruik wordt de behandeling ge&#235;valueerd door middel van gesprekken en deelname aan multidisciplinaire overleggen tussen regiebehandelaar en mede-behandelaren.</item>
+       <item id="d040" label="First draft of data items" markup="textile">Intensiteit van de behandeling: 
+Root concept 
+
+Data element &#8220;soort behandeling&#8221;
+
+ValueSet: 
+- Ambulant
+- Dag behandeling
+- Verblijf met overnachting (VMO) 
+- Verblijf zonder overnachting (VZO) 
+- Verblijf met rechtvaardigingsgrond (VMR)</item>
+       <item id="d070" label="Example Instances" markup="textile">Intensiteit van de behandeling.
+Soort behandeling: ambulant.</item>
+       <item id="d080" label="Instruction" markup="textile">Conform gepast gebruik dient de wijze van verantwoording over de beheersing van de risico&#8217;s (werking) te worden beschreven.
+C1: Beschrijving van de wijze waarop de basisregistratieset is ge&#239;mplementeerd.
+Dit met onderliggende procedures en werkvoorschriften voor behandelaren (inclusief overzicht vorm en inhoud registratieset) conform het Kwaliteitsstatuut. 
+</item>
+       <item id="d090" label="Interpretation" markup="textile">Bij het vaststellen van het behandelplan bepaalt de zorgprofessional op basis van de richtlijnen (evidentie) welke vorm van verblijf daarbij van toepassing is.
+De keuze bestaat uit een van de volgende opties: 
+
+- Ambulant
+- Dag behandeling
+- Verblijf met overnachting (VMO) 
+- Verblijf zonder overnachting (VZO) 
+- Verblijf met rechtvaardigingsgrond (VMR)</item>
+       <item id="d100" label="Care Process" markup="textile">Dit wordt normaliter tijdens de diagnosefase bepaald.</item>
+       <item id="d110" label="Example of the Instrument" markup="textile">Er is geen instrument bekend.</item>
+       <item id="d120" label="Constraints" markup="textile">Er zijn geen inperkingen bekend.</item>
+       <item id="d130" label="Issues" markup="textile">Het is de vraag of de keuzes enkelvoudige zijn, of dat er in een behandelplan meer opties kunnen worden gekozen. Bv starten met MVO, dan MZO, dan ambulant.</item>
+       <item id="d140" label="References" markup="textile">Taskforce Gepast Gebruik ggz.  AdviesTaskforce Gepast Gebruik ggz, 2019. https://www.rijksoverheid.nl/documenten/rapporten/2019/04/23/adviestaskforce-gepast-gebruik-ggz </item>
+       <item id="d150" label="Traceability to other Standards" markup="textile">Dit is afgeleid van de afspraken gepast gebruik.</item>
+       <item id="d160" label="Disclaimer" markup="textile">GGZ Nederland in de rol van opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorg Informatie Bouwsteen (zib). Onjuistheden en onvolledigheden kunnen echter voorkomen. GGZ Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door GGZ Nederland of Results 4 Care, of door U aan GGZ Nederland of Results 4 Care via een website van GGZ Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg.
+
+Tevens aanvaarden GGZ Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of idee&#235;n verstrekt door of namens GGZ Nederland of Results 4 Care via deze zib. GGZ Nederland en Results 4 Care aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze zib waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.
+
+In geval van tegenstrijdigheden in de genoemde zib documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.
+
+Indien informatie die in de elektronische versie van deze zib is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.
+</item>
+       <item id="d170" label="Terms of Use" markup="textile">De gebruiker mag de informatie van deze Zorginformatiebouwsteen kopi&#235;ren, verspreiden en doorgeven, onder de voorwaarden, die gelden voor Creative Commons licentie Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland (CC BY-NC-SA-3.0).De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 (zie ook http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).
+The user may copy, distribute and pass on the information in this Health and Care Information Model under the conditions that apply for Creative Commons license Attribution-NonCommercial-ShareAlike 3.0 Netherlands (CC BY-NCSA-3.0). The content is available under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (see also http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).</item>
+       <item id="d180" label="Copyrights" markup="textile">Er zijn geen copyrights bekend t.a.v het beleidsstuk gepast gebruik. Het gaat om publieke informatie.</item>
+   </documentation>
+</clinicaltemplate>

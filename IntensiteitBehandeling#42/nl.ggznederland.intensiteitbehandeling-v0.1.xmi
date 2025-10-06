@@ -1,0 +1,1312 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<XMI xmi.version="1.1" xmlns:UML="omg.org/UML1.3" timestamp="2020-01-09 10:44:59">
+	<XMI.header>
+		<XMI.documentation>
+			<XMI.exporter>Enterprise Architect</XMI.exporter>
+			<XMI.exporterVersion>2.5</XMI.exporterVersion>
+		</XMI.documentation>
+	</XMI.header>
+	<XMI.content>
+		<UML:Model name="EA Model" xmi.id="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F">
+			<UML:Namespace.ownedElement>
+				<UML:Class name="EARootClass" xmi.id="EAID_11111111_5487_4080_A7F4_41526CB0AA00" isRoot="true" isLeaf="false" isAbstract="false"/>
+				<UML:Package name="nl.ggznederland.intensiteitbehandeling-v0.1" xmi.id="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+					<UML:ModelElement.stereotype>
+						<UML:Stereotype xmi.idref="EAID_3BF077B4_DF72_4650_BF0E_F47461FAADE7"/>
+					</UML:ModelElement.stereotype>
+					<UML:ModelElement.taggedValue>
+						<UML:TaggedValue tag="parent" value="EAPK_0ED89192_269A_49c6_8CFB_49D0FCD5A4EB"/>
+						<UML:TaggedValue tag="created" value="2020-01-09 08:33:50"/>
+						<UML:TaggedValue tag="modified" value="2020-01-09 08:34:32"/>
+						<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+						<UML:TaggedValue tag="lastloaddate" value="2012-11-15 17:20:10"/>
+						<UML:TaggedValue tag="lastsavedate" value="2012-11-15 17:20:10"/>
+						<UML:TaggedValue tag="version" value="1.1"/>
+						<UML:TaggedValue tag="isprotected" value="FALSE"/>
+						<UML:TaggedValue tag="usedtd" value="FALSE"/>
+						<UML:TaggedValue tag="logxml" value="FALSE"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="packageFlags" value="CRC=0;"/>
+						<UML:TaggedValue tag="batchsave" value="0"/>
+						<UML:TaggedValue tag="batchload" value="0"/>
+						<UML:TaggedValue tag="phase" value="1.0"/>
+						<UML:TaggedValue tag="status" value="Proposed"/>
+						<UML:TaggedValue tag="author" value="Stijn"/>
+						<UML:TaggedValue tag="alias" value="EN: nl.zorg.Respiration"/>
+						<UML:TaggedValue tag="complexity" value="1"/>
+						<UML:TaggedValue tag="stereotype" value="DCM"/>
+						<UML:TaggedValue tag="ea_stype" value="Public"/>
+						<UML:TaggedValue tag="tpos" value="9"/>
+						<UML:TaggedValue tag="gentype" value="Java"/>
+					</UML:ModelElement.taggedValue>
+					<UML:Namespace.ownedElement>
+						<UML:Collaboration xmi.id="EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F_Collaboration" name="Collaborations">
+							<UML:Namespace.ownedElement>
+								<UML:ClassifierRole name="Terms of Use" xmi.id="EAID_035B3775_D46A_4b2e_A19B_59632369B059" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De gebruiker mag de informatie van deze Zorginformatiebouwsteen kopiëren, verspreiden en doorgeven, onder de voorwaarden, die gelden voor Creative Commons licentie Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland (CC BY-NC-SA-3.0).De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 (zie ook http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).&#xA;The user may copy, distribute and pass on the information in this Health and Care Information Model under the conditions that apply for Creative Commons license Attribution-NonCommercial-ShareAlike 3.0 Netherlands (CC BY-NCSA-3.0). The content is available under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (see also http://creativecommons.org/licenses/by-nc-sa/3.0/nl/)."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:37"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:44"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_035B3775_D46A_4b2e_A19B_59632369B059"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="19"/>
+										<UML:TaggedValue tag="ea_localid" value="7581"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Purpose" xmi.id="EAID_0D7E27DD_1C6B_4305_A4D5_3218C80A367E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Intensiteit van de behandeling dient zo te worden gekozen dat de zorg voldoet aan de stand van wetenschap en praktijk (effectieve zorg). En de verzekerde moet redelijkerwijs zijn aangewezen op zorg gezien zijn gezondheidssituatie (medische noodzaak). Dit tezamen vormt een onderbouwing van de rechtmatigheid van zorg. "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:28"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_0D7E27DD_1C6B_4305_A4D5_3218C80A367E"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="4"/>
+										<UML:TaggedValue tag="ea_localid" value="7567"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Evidence Base" xmi.id="EAID_0E22D971_53FE_4ea0_B782_EE544987305F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="In het Bestuurlijk Akkoord ggz 2019 tot en met 2022 is afgesproken dat partijen onder begeleiding van het Zorginstituut Nederland komen met een voorstel om de administratieve lasten voortvloeiend uit het Model Kwaliteitsstatuut ggz terug te dringen en flexibiliteit / taakherschikking van beroepen te bevorderen in verband met de wachttijdproblematiek. &#xA;&#xA;Afspraken voortkomend uit dit voorstel zullen in lijn gebracht moeten worden met dit advies. Een basisregistratieset gepast gebruik waaraan de zorgverlener zich dient te houden is onderdeel van deze afspraken.  Het op eenvoudige wijze registreren van de intensiteit van de behandeling maakt daar deel van uit. In het kader van gepast gebruik wordt de behandeling geëvalueerd door middel van gesprekken en deelname aan multidisciplinaire overleggen tussen regiebehandelaar en mede-behandelaren."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:29"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_0E22D971_53FE_4ea0_B782_EE544987305F"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="6"/>
+										<UML:TaggedValue tag="ea_localid" value="7569"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example of the Instrument" xmi.id="EAID_165D33E4_2149_4c8c_936D_4C513BE47AA9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Er is geen instrument bekend."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:33"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_165D33E4_2149_4c8c_936D_4C513BE47AA9"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="13"/>
+										<UML:TaggedValue tag="ea_localid" value="7575"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="References" xmi.id="EAID_18A88733_0CCA_4653_B322_7C3DEF824524" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Taskforce Gepast Gebruik ggz.  AdviesTaskforce Gepast Gebruik ggz, 2019. https://www.rijksoverheid.nl/documenten/rapporten/2019/04/23/adviestaskforce-gepast-gebruik-ggz "/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:35"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_18A88733_0CCA_4653_B322_7C3DEF824524"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="16"/>
+										<UML:TaggedValue tag="ea_localid" value="7578"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Issues" xmi.id="EAID_28A1341E_EEDE_4fc9_9392_BED356FB265F" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Het is de vraag of de keuzes enkelvoudige zijn, of dat er in een behandelplan meer opties kunnen worden gekozen. Bv starten met MVO, dan VZO, dan ambulant."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:34"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 10:00:03"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_28A1341E_EEDE_4fc9_9392_BED356FB265F"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="15"/>
+										<UML:TaggedValue tag="ea_localid" value="7577"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Copyrights" xmi.id="EAID_2C21B414_3710_4fc1_9927_9CDD940ECA47" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Er zijn geen copyrights bekend t.a.v het beleidsstuk gepast gebruik. Het gaat om publieke informatie."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:37"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:44"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2C21B414_3710_4fc1_9927_9CDD940ECA47"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="20"/>
+										<UML:TaggedValue tag="ea_localid" value="7582"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Revision History" xmi.id="EAID_2F6DF137_C926_4eb7_8BDC_138EDD82C4F3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="v 01. Gestart vanuit notitie gepast gebruik. Opgnomen in lijst 42 als nummer 42. Dec 2019 / Jan 2020."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:33:51"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:41:52"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_2F6DF137_C926_4eb7_8BDC_138EDD82C4F3"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="STijn"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="7544"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Disclaimer" xmi.id="EAID_375A5090_6A6C_4bb9_B709_1EDB396C451B" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="GGZ Nederland in de rol van opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorg Informatie Bouwsteen (zib). Onjuistheden en onvolledigheden kunnen echter voorkomen. GGZ Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door GGZ Nederland of Results 4 Care, of door U aan GGZ Nederland of Results 4 Care via een website van GGZ Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg.&#xA;&#xA;Tevens aanvaarden GGZ Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens GGZ Nederland of Results 4 Care via deze zib. GGZ Nederland en Results 4 Care aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze zib waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde zib documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.&#xA;&#xA;Indien informatie die in de elektronische versie van deze zib is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:36"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:44"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_375A5090_6A6C_4bb9_B709_1EDB396C451B"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="18"/>
+										<UML:TaggedValue tag="ea_localid" value="7580"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Information Model" xmi.id="EAID_5C95A123_1489_4d10_BF6E_502C28B4D380" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.1"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:33:51"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5C95A123_1489_4d10_BF6E_502C28B4D380"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="Informatie Model"/>
+										<UML:TaggedValue tag="author" value="Stijn"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="8"/>
+										<UML:TaggedValue tag="ea_localid" value="7550"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Mindmap" xmi.id="EAID_5DD43363_0445_4e05_A5A6_F8B65C1657CD" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Geen"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:27"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_5DD43363_0445_4e05_A5A6_F8B65C1657CD"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="3"/>
+										<UML:TaggedValue tag="ea_localid" value="7566"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Care Process" xmi.id="EAID_60D172CD_383F_4a65_A891_0D00E7AFDC33" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Dit wordt normaliter tijdens de diagnosefase bepaald."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:32"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_60D172CD_383F_4a65_A891_0D00E7AFDC33"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="12"/>
+										<UML:TaggedValue tag="ea_localid" value="7574"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="First draft of data items" xmi.id="EAID_6BDCB47B_B520_4ce2_91C7_A52E8F3F2C26" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Intensiteit van de behandeling: Root concept &#xA;&#xA;Data element “soort ggz behandeling” &#xA;&#xA;ValueSet Intensiteit van de behandeling: &#xA;- Ambulant &#xA;- Dag behandeling &#xA;- Verblijf met overnachting (VMO) &#xA;- Verblijf zonder overnachting (VZO) &#xA;- Verblijf met rechtvaardigingsgrond (VMR)"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:30"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 09:50:10"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_6BDCB47B_B520_4ce2_91C7_A52E8F3F2C26"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="7"/>
+										<UML:TaggedValue tag="ea_localid" value="7570"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Instructions" xmi.id="EAID_78A18B98_8B4C_4adf_A194_338EF58981A8" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Conform gepast gebruik dient de wijze van verantwoording over de beheersing van de risico’s (werking) te worden beschreven.&#xA;C1: Beschrijving van de wijze waarop de basisregistratieset is geïmplementeerd.&#xA;Dit met onderliggende procedures en werkvoorschriften voor behandelaren (inclusief overzicht vorm en inhoud registratieset) conform het Kwaliteitsstatuut. &#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:31"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_78A18B98_8B4C_4adf_A194_338EF58981A8"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="10"/>
+										<UML:TaggedValue tag="ea_localid" value="7572"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Constraints" xmi.id="EAID_8E43ED22_D325_4032_B090_93DCAD8BCAD3" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Er zijn geen inperkingen bekend."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:34"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_8E43ED22_D325_4032_B090_93DCAD8BCAD3"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="14"/>
+										<UML:TaggedValue tag="ea_localid" value="7576"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Interpretation" xmi.id="EAID_B4C19882_4C91_4f1b_93D9_FF2E359046F4" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Bij het vaststellen van het behandelplan bepaalt de zorgprofessional op basis van de richtlijnen (evidentie) welke vorm van verblijf daarbij van toepassing is.&#xA;De keuze bestaat uit een van de volgende opties: &#xA;&#xA;- Ambulant&#xA;- Dag behandeling&#xA;- Verblijf met overnachting (VMO) &#xA;- Verblijf zonder overnachting (VZO) &#xA;- Verblijf met rechtvaardigingsgrond (VMR)"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:32"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B4C19882_4C91_4f1b_93D9_FF2E359046F4"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="11"/>
+										<UML:TaggedValue tag="ea_localid" value="7573"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Traceability to other Standards" xmi.id="EAID_B5EB9254_6CB7_47cd_AFBB_1C6EB2C848B1" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Dit is afgeleid van de afspraken gepast gebruik."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:35"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_B5EB9254_6CB7_47cd_AFBB_1C6EB2C848B1"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="7579"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Patient Population" xmi.id="EAID_C2AE7DA0_24C7_4c30_B4CD_0320A44B5863" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Geldt voor alle ggz patiënten."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:29"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_C2AE7DA0_24C7_4c30_B4CD_0320A44B5863"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="7568"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Example Instances" xmi.id="EAID_DC0C2832_26F3_491d_8820_34C50228EB9E" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="Intensiteit van de behandeling.&#xA;Soort behandeling: ambulant."/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:30"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:43"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_DC0C2832_26F3_491d_8820_34C50228EB9E"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="9"/>
+										<UML:TaggedValue tag="ea_localid" value="7571"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+								<UML:ClassifierRole name="Concept" xmi.id="EAID_EC00D881_EA2A_4145_8B89_69C46EC8C7E9" visibility="public" base="EAID_11111111_5487_4080_A7F4_41526CB0AA00">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="De intensiteit van de behandeling vormt een onderdeel van de Basisregistratieset gepast gebruik per patiënt. Het is onderdeel van de diagnostiekfase en mond uit in een behandelplan waarin met de patiënt wordt afgesproken het verwachte aantal en soort behandelingen en evaluatiemomenten.&#xA;&#xA;"/>
+										<UML:TaggedValue tag="isAbstract" value="false"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Package"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:35:27"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:40:42"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package2" value="EAID_EC00D881_EA2A_4145_8B89_69C46EC8C7E9"/>
+										<UML:TaggedValue tag="package_name" value="nl.ggznederland.intensiteitbehandeling-v0.1"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="William Goossen"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="tpos" value="2"/>
+										<UML:TaggedValue tag="ea_localid" value="7565"/>
+										<UML:TaggedValue tag="ea_eleType" value="package"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:ClassifierRole>
+							</UML:Namespace.ownedElement>
+							<UML:Collaboration.interaction/>
+						</UML:Collaboration>
+						<UML:Package name="Revision History" xmi.id="EAPK_2F6DF137_C926_4eb7_8BDC_138EDD82C4F3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="v 01. Gestart vanuit notitie gepast gebruik. Opgnomen in lijst 42 als nummer 42. Dec 2019 / Jan 2020."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:33:52"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:41:52"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2012-11-15 17:20:12"/>
+								<UML:TaggedValue tag="lastsavedate" value="2012-11-15 17:20:12"/>
+								<UML:TaggedValue tag="version" value="1.0"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="1"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="STijn"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Concept" xmi.id="EAPK_EC00D881_EA2A_4145_8B89_69C46EC8C7E9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De intensiteit van de behandeling vormt een onderdeel van de Basisregistratieset gepast gebruik per patiënt. Het is onderdeel van de diagnostiekfase en mond uit in een behandelplan waarin met de patiënt wordt afgesproken het verwachte aantal en soort behandelingen en evaluatiemomenten.&#xA;&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:27"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:42:04"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="2"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Mindmap" xmi.id="EAPK_5DD43363_0445_4e05_A5A6_F8B65C1657CD" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Geen"/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:27"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:28"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="3"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Purpose" xmi.id="EAPK_0D7E27DD_1C6B_4305_A4D5_3218C80A367E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Intensiteit van de behandeling dient zo te worden gekozen dat de zorg voldoet aan de stand van wetenschap en praktijk (effectieve zorg). En de verzekerde moet redelijkerwijs zijn aangewezen op zorg gezien zijn gezondheidssituatie (medische noodzaak). Dit tezamen vormt een onderbouwing van de rechtmatigheid van zorg. "/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:28"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:29"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="4"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Patient Population" xmi.id="EAPK_C2AE7DA0_24C7_4c30_B4CD_0320A44B5863" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Geldt voor alle ggz patiënten."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:29"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:29"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="5"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Evidence Base" xmi.id="EAPK_0E22D971_53FE_4ea0_B782_EE544987305F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="In het Bestuurlijk Akkoord ggz 2019 tot en met 2022 is afgesproken dat partijen onder begeleiding van het Zorginstituut Nederland komen met een voorstel om de administratieve lasten voortvloeiend uit het Model Kwaliteitsstatuut ggz terug te dringen en flexibiliteit / taakherschikking van beroepen te bevorderen in verband met de wachttijdproblematiek. &#xA;&#xA;Afspraken voortkomend uit dit voorstel zullen in lijn gebracht moeten worden met dit advies. Een basisregistratieset gepast gebruik waaraan de zorgverlener zich dient te houden is onderdeel van deze afspraken.  Het op eenvoudige wijze registreren van de intensiteit van de behandeling maakt daar deel van uit. In het kader van gepast gebruik wordt de behandeling geëvalueerd door middel van gesprekken en deelname aan multidisciplinaire overleggen tussen regiebehandelaar en mede-behandelaren."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:29"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:30"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="6"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="First draft of data items" xmi.id="EAPK_6BDCB47B_B520_4ce2_91C7_A52E8F3F2C26" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Intensiteit van de behandeling: Root concept &#xA;&#xA;Data element “soort ggz behandeling” &#xA;&#xA;ValueSet Intensiteit van de behandeling: &#xA;- Ambulant &#xA;- Dag behandeling &#xA;- Verblijf met overnachting (VMO) &#xA;- Verblijf zonder overnachting (VZO) &#xA;- Verblijf met rechtvaardigingsgrond (VMR)"/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:30"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 09:50:37"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="7"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Information Model" xmi.id="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:33:52"/>
+								<UML:TaggedValue tag="modified" value="2019-10-15 09:20:50"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="lastloaddate" value="2009-07-04 12:17:20"/>
+								<UML:TaggedValue tag="lastsavedate" value="2009-07-04 12:17:19"/>
+								<UML:TaggedValue tag="version" value="1.1"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="8"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="Stijn"/>
+								<UML:TaggedValue tag="alias" value="Informatie Model"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement>
+								<UML:Class name="IntensiteitBehandeling" xmi.id="EAID_7E51B3D6_E0AB_4778_97F1_001AF9E2D6C7" visibility="public" namespace="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="rootconcept"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&amp;lt;languages xml:space=&quot;preserve&quot;&amp;gt;&#xA;&amp;lt;nl-NL&amp;gt;Rootconcept van de bouwsteen [naam]. Dit rootconcept bevat alle gegevenselementen van de bouwsteen [naam].&amp;lt;/nl-NL&amp;gt;&#xA;&amp;lt;en-US&amp;gt;Root concept of information model [nameEN]. This root concept contains all data elements of information model [nameEN].&amp;lt;/en-US&amp;gt;&#xA;&amp;lt;/languages&amp;gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:33:52"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:42:31"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="EN: RootConcept"/>
+										<UML:TaggedValue tag="author" value="stijn"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="rootconcept"/>
+										<UML:TaggedValue tag="tpos" value="1"/>
+										<UML:TaggedValue tag="ea_localid" value="19002"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={B760C2F5-449A-4e51-98C6-1A80AEB3B6F1}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=rootconcept;GUID={3C84F759-4666-419f-A4DE-00EEFC349C8F};@ENDSTEREO;$DES;$CLT={7E51B3D6-E0AB-4778-97F1-001AF9E2D6C7}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Association xmi.id="EAID_B12628C3_6A34_4b9f_AE2B_77CE35F35B2B" visibility="public" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Aggregation"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="subtype" value="Strong"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14509"/>
+										<UML:TaggedValue tag="ea_sourceName" value="soort ggz behandeling"/>
+										<UML:TaggedValue tag="ea_targetName" value="IntensiteitBehandeling"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19007"/>
+										<UML:TaggedValue tag="ea_targetID" value="19002"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+									<UML:Association.connection>
+										<UML:AssociationEnd visibility="public" aggregation="none" isOrdered="false" targetScope="instance" changeable="none" isNavigable="false" type="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="sourcestyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="source"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+										<UML:AssociationEnd visibility="public" aggregation="composite" isOrdered="false" targetScope="instance" changeable="none" isNavigable="true" type="EAID_7E51B3D6_E0AB_4778_97F1_001AF9E2D6C7">
+											<UML:ModelElement.taggedValue>
+												<UML:TaggedValue tag="containment" value="Unspecified"/>
+												<UML:TaggedValue tag="deststyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+												<UML:TaggedValue tag="ea_end" value="target"/>
+											</UML:ModelElement.taggedValue>
+										</UML:AssociationEnd>
+									</UML:Association.connection>
+								</UML:Association>
+								<UML:Class name="valueset Intensiteit van de ggz behandeling" xmi.id="EAID_8C00A1D7_4194_423d_9E89_F626795B6EBD" visibility="public" namespace="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380" isRoot="false" isLeaf="false" isAbstract="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="document"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Artifact"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:33:52"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 10:06:32"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="EN: Class1Codelist"/>
+										<UML:TaggedValue tag="author" value="spruyt"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="object_style" value="MDoc=1;"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="document"/>
+										<UML:TaggedValue tag="tpos" value="17"/>
+										<UML:TaggedValue tag="ea_localid" value="19005"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={407C661E-0234-4181-A881-33EC45246368}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=document;GUID={6814A518-B031-40a6-9B8D-3E6C1356ED2B};@ENDSTEREO;$DES;$CLT={8C00A1D7-4194-423d-9E89-F626795B6EBD}$CLT;$ENDXREF;"/>
+										<UML:TaggedValue tag="modeldocument" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64" type="ModelDocument" docid="{8C00A1D7-4194-423d-9E89-F626795B6EBD}" name="DiepteCodelijst" date="09-jan-2020 10:06:32" notes="" style="" elementtype="ModelDocument" strcontent="" author="" version="" isactive="2278" sequence="0">UEsDBBQAAAAIAMBQKVCA5k2AXAgAAN5KAAAHABEAc3RyLmRhdFVUDQAHKPsWXij7Fl4o+xZe
+7VxLc9s4Er67yv8Bt0m2drTgQ5S8PiV2ZpKa2E6NvDlM8QKSEIUYJBUQsuKk/N+38SBtK/SD
+lBwqKZVjCmigP3Q3wH6Qcr6FQk6dkOQlCxM65SRPHex74VTm0adwETuKOsX7e9/CaZFLGXFo
+YBROyyUrS/RKMMIPr4Hm1LRwGs+IKKnE6IhwFgmmJ7hNE274PSCLIiP57eFzltESndIl+lsN
+6Yk+TMgZR+8XMUsImoDomj609KNiIRgViuvw+loJHhe8ECA5OgwFTXCYCkpzHEZ8QbGhucOh
+oaqGosPnPSOOO27AqefD8G16PbvGubOuxQj8u5Mdd2QGVMOMjCyM61lxoKEXdj10qLUs5RWn
+5YxSqXYIbO1idFqIzNg3Lh10TKdkwSX6QARJBZnP0B+wpWbUBcMCjxOEUTgXhaSxDGM4GHHk
+hfEsjuZEemgyeV0UFxkRF4qp9MIyp18kDsvIwXAl+srtsmbd0jeThmp1ljPJihydU5HpwaEZ
+hJUZDjnzAhwKhm9Pfc9KK2EQslsDmn1k2L2wWEjOcsrpJeUOqOGPQY0VqVYmXVA6z9FbRwON
+m4DAJKWn7PEQkFsBuRrooAnIU5vxmEReBeRpIAc3Iaktcv1HkPwKyTdIThPSUB+QR5CGFdLQ
+ILlNSEF1bB5CCiqkYH/PYNnD48GuvkoSQUt9F5eOPS/4zpFQ19VD9poX8cXnBRxVe76HAHX0
+7vyN7YJcRkl0dHZcEUcw5002n5GS6fWANA4XHI66j95ezakAifXhhoEDMzCEu4TzYkmTlQlg
+PrtCGKG/6FVUEJFoJVxr8psJZaREN4J/EHSqbhApqZ1e21XftyD5ZRiJREh9TSL9oW7GzzH6
++vvrQsoiQ8UU5LK3kVsb8y6A4VwFOC/mt7ljdaJAywnJ5tza0gVfhyZSFHlqCTfWPAcrLAWT
+VNghZdOPBBx5VLOPQYB4GqC35yfv0Qn4i8XcjhyEl+Chs4wax1N61TkHwdWdC7YwG288wWmB
+JnMSs0oOz2n0Uy74qaDyUwH4qXMKyhBJ/2CUJzYM/Asc6KUKYP/LL/JimddkDj5GKulVV3UM
+xUKwREc/RdJHOdTXfBpj05rq02E7pSRCEul8M10JmqHwN+zCLx5cW2q+yCIqSjXgGBnWBnee
+E9x9TnDvOcH95wQfPid48Jzgo02B4xVwvIJ7A5mTjOpgjg+vNYElzv7etf5X3YPFJRWCJVTf
+i0AP5wQc7tJxDvDYtGdOMPa8EDKQlDtjCASqJeqWdHzftCLdmlGSUHE1Up66AF9hmnmRimJJ
+FrKYMqnSW1jPTBFZOQMOmDGlRC4ElTNwMWAO8DoUshRC8yQHnDIkkB/ngsfhPFW+VS1km2oh
+EL0Ex6RIy/JLbhVIZ6qtFUgX4F4EdI20XA3U6tzuSNWplao6zXqV0cWcpBQWymPI69RnQmNl
+Rk5Ybq82MwQqePdlAtcUEkHwvlLMSZLwujWFjMS0xA1NVDRZk2RFimpSpEgc7KooAsCHIYdG
+sYRVYw6bLAkHr81vYlypr8uhDVRjO2gC1z2D/KFBcd+gjhAjaICkKujohlJCN5SqhiIsRRnE
+ULilRBVBZcaU8y8e7O+vqdkBxuqkzCGvCVkOoTMsS+gQsvgCxw2rXYVu+JmHS5bEkqvOnWNW
+9WxkV9Wlh8dOOGPxTFGTyHxCKqc/VSQ3M6UASgR5BdQ4EyrXBkJrI7zLJYUqGRKCDUhzCXUu
+OJrvcXTx/ShOsz5P5U3Trw3c7TTY32uSoB1GRGcEXBRk1Om6WPq89ntUz94dr43xX+QOnGAw
+9vHAGTiONx57gwbQp26018DbTqCB5zogiz9w4SeorWxQ9Vy8iupaVNeiuhWq3gSFajfIBIQf
+Eoa2K/wcbNRJO2Pf+zU126bAulnN/KEOrL+gZkEQ/KKnsYdkqJqp3CY6KvKYziU6hUqqj3DX
+KMxRkWyDMAmdXJVrogy2xbJaGUmzNYE65Gd3+DvlM7cRejflMS1jwebqdUHnzEUDVpnLD89b
+VPns4mB78pfNudMtSVs2p9CWZCubU2hLkpTNKbQlucnmFHo4JfHaeljjEB8pLs1M9CqLFjC7
+6VHIUwCeFiJaa9BaADTyRv6Bi7GLepQFTU7PTt4cH503ALQIeD1qYK35/dOLYHBw89igN7nO
+FhLqAUZziWIiKMpITlKqXkKiF3NRxDRZCPqyPgL9xPmRs4vzP4FCuzi/7Qrt4vzD/rNNnD8m
+6cOP6Z8C0398Qs7Y88dDHec7QvSvwwNZwpMAetdgW7ME9KG8imeMSMFilJArkyS8EDRlGf2P
+nFFB5lcvu6LfNfvt3GJTqra5oT9SEXH2adoZAGVU3r2J2nCr73jkJJ7JVW/SBgS96Mz68eSs
+M+/Ln9h3gN4YN70PfBJ77/Jbz/Hnn/+c0oQK4EvWhEKxfYQdFwkt+1fte6fo1S9fTRrQj3jo
+gy2cOgNcWo/T+VkBQizvvnzztx2extt9VZaXEvZs1cu1gei++P7ektzsf2v27gvP2KfOvN1X
+rWNKZ4QOX7KoZt4X23/ccwN8oKTYPTfYcoV2zw22XaHdc4OHs4Y2ufL6ZUZnzq9FDiliZ/bu
+C/de2/zTvbbZ37upbvTfq/mrzJ5l9iyzVzH7vVcHSnOM/a7svcu/q276Em8rqpvOnMrhJGSN
+CuPnq6v29zZQWf27+/pZP4XV+iUOohxcS/n8lQ4npaLsKp622dqu4tl2hXYVz7Yr9FNXPGu9
+WBEUosMlRKeEpRAby1QU9d98tgZL1qlCTv7uzLuhd2yb2v4WAii1MR52Ze9d/l0JslHx2hz6
+LXQcd/e+Ddqgc457f4KpN+X2dmC1DY3Gt1/sh6n6fxb4P1BLAQIXCxQAAAAIAMBQKVCA5k2A
+XAgAAN5KAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQFAAco+xZeUEsFBgAAAAABAAEA
+PgAAAJIIAAAAAA==</UML:TaggedValue>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Dependency client="EAID_8C00A1D7_4194_423d_9E89_F626795B6EBD" supplier="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693" xmi.id="EAID_D61B804B_F289_4180_A3F3_4C2DD6C40A5E" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Dependency"/>
+										<UML:TaggedValue tag="direction" value="Unspecified"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14503"/>
+										<UML:TaggedValue tag="ea_sourceName" value="valueset Intensiteit van de ggz behandeling"/>
+										<UML:TaggedValue tag="ea_targetName" value="soort ggz behandeling"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Artifact"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19005"/>
+										<UML:TaggedValue tag="ea_targetID" value="19007"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Dependency>
+								<UML:Class name="soort ggz behandeling" xmi.id="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693" visibility="public" namespace="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380" isRoot="false" isLeaf="false" isAbstract="false" isActive="false">
+									<UML:ModelElement.stereotype>
+										<UML:Stereotype name="data"/>
+									</UML:ModelElement.stereotype>
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="documentation" value="&amp;lt;languages xml:space=&quot;preserve&quot;&amp;gt;&#xA;&amp;lt;nl-NL&amp;gt;&amp;lt;/nl-NL&amp;gt;&#xA;&amp;lt;en-US&amp;gt;&amp;lt;/en-US&amp;gt;&#xA;&amp;lt;/languages&amp;gt;"/>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Class"/>
+										<UML:TaggedValue tag="ea_ntype" value="0"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="package" value="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:33:52"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 09:01:31"/>
+										<UML:TaggedValue tag="gentype" value="Java"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="alias" value="EN: Class1"/>
+										<UML:TaggedValue tag="author" value="spruyt"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="product_name" value="Java"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="stereotype" value="data"/>
+										<UML:TaggedValue tag="tpos" value="5"/>
+										<UML:TaggedValue tag="ea_localid" value="19007"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1C8BBB4C-1F8F-4bc7-97D9-102427BCC9C6}$XID;$NAM=Stereotypes$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@STEREO;Name=data;GUID={7982D69C-7F38-491f-9B8E-62E7F7AABB98};@ENDSTEREO;$DES;$CLT={96BB88BB-D777-40c7-A6AC-4C6642FA0693}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Class>
+								<UML:Generalization subtype="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693" supertype="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" xmi.id="EAID_EB83B6CC_492F_4c1c_9647_C5A37DB0C25B" visibility="public">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="style" value="3"/>
+										<UML:TaggedValue tag="ea_type" value="Generalization"/>
+										<UML:TaggedValue tag="direction" value="Source -&gt; Destination"/>
+										<UML:TaggedValue tag="linemode" value="3"/>
+										<UML:TaggedValue tag="linecolor" value="-1"/>
+										<UML:TaggedValue tag="linewidth" value="0"/>
+										<UML:TaggedValue tag="seqno" value="0"/>
+										<UML:TaggedValue tag="headStyle" value="0"/>
+										<UML:TaggedValue tag="lineStyle" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="14502"/>
+										<UML:TaggedValue tag="ea_sourceName" value="soort ggz behandeling"/>
+										<UML:TaggedValue tag="ea_targetName" value="CD"/>
+										<UML:TaggedValue tag="ea_sourceType" value="Class"/>
+										<UML:TaggedValue tag="ea_targetType" value="Class"/>
+										<UML:TaggedValue tag="ea_sourceID" value="19007"/>
+										<UML:TaggedValue tag="ea_targetID" value="24"/>
+										<UML:TaggedValue tag="src_visibility" value="Public"/>
+										<UML:TaggedValue tag="src_aggregation" value="0"/>
+										<UML:TaggedValue tag="src_isOrdered" value="false"/>
+										<UML:TaggedValue tag="src_targetScope" value="instance"/>
+										<UML:TaggedValue tag="src_changeable" value="none"/>
+										<UML:TaggedValue tag="src_isNavigable" value="false"/>
+										<UML:TaggedValue tag="src_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="src_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="dst_visibility" value="Public"/>
+										<UML:TaggedValue tag="dst_aggregation" value="0"/>
+										<UML:TaggedValue tag="dst_isOrdered" value="false"/>
+										<UML:TaggedValue tag="dst_targetScope" value="instance"/>
+										<UML:TaggedValue tag="dst_changeable" value="none"/>
+										<UML:TaggedValue tag="dst_isNavigable" value="true"/>
+										<UML:TaggedValue tag="dst_containment" value="Unspecified"/>
+										<UML:TaggedValue tag="dst_style" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+										<UML:TaggedValue tag="virtualInheritance" value="0"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Generalization>
+								<UML:Comment name="Legend" xmi.id="EAID_C5A24AC1_D9C7_48b3_8A7E_E022568CFA64" visibility="public" namespace="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380">
+									<UML:ModelElement.taggedValue>
+										<UML:TaggedValue tag="isSpecification" value="false"/>
+										<UML:TaggedValue tag="ea_stype" value="Text"/>
+										<UML:TaggedValue tag="ea_ntype" value="76"/>
+										<UML:TaggedValue tag="version" value="1.0"/>
+										<UML:TaggedValue tag="isActive" value="false"/>
+										<UML:TaggedValue tag="package" value="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380"/>
+										<UML:TaggedValue tag="date_created" value="2020-01-09 08:33:52"/>
+										<UML:TaggedValue tag="date_modified" value="2020-01-09 08:33:52"/>
+										<UML:TaggedValue tag="gentype" value="&lt;none&gt;"/>
+										<UML:TaggedValue tag="tagged" value="0"/>
+										<UML:TaggedValue tag="package_name" value="Information Model"/>
+										<UML:TaggedValue tag="phase" value="1.0"/>
+										<UML:TaggedValue tag="author" value="Spruyt"/>
+										<UML:TaggedValue tag="complexity" value="1"/>
+										<UML:TaggedValue tag="status" value="Proposed"/>
+										<UML:TaggedValue tag="styleex" value="LegendOpts=31;LegendTypeObj=Filter=:;LegendTypeConn=Filter=:;"/>
+										<UML:TaggedValue tag="tpos" value="0"/>
+										<UML:TaggedValue tag="ea_localid" value="19001"/>
+										<UML:TaggedValue tag="ea_eleType" value="element"/>
+										<UML:TaggedValue tag="style" value="BackColor=-1;BorderColor=-1;BorderWidth=-1;FontColor=-1;VSwimLanes=1;HSwimLanes=1;BorderStyle=0;"/>
+										<UML:TaggedValue tag="$ea_xref_property" value="$XREFPROP=$XID={1267945D-E9E4-4e06-B388-89895FC1DEFF}$XID;$NAM=CustomProperties$NAM;$TYP=element property$TYP;$VIS=Public$VIS;$PAR=0$PAR;$DES=@PROP=@NAME=rootconcept@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16777215;#Pen_Color#=0;#Pen_Size#=2;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=0@ENDPRMT;@ENDPROP;@PROP=@NAME=container@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=14346490;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=1@ENDPRMT;@ENDPROP;@PROP=@NAME=data@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16764057;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=2@ENDPRMT;@ENDPROP;@PROP=@NAME=codelist@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=14806471;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=3@ENDPRMT;@ENDPROP;@PROP=@NAME=constraint@ENDNAME;@TYPE=LEGEND_OBJECTSTYLE@ENDTYPE;@VALU=#Back_Ground_Color#=16772588;#Pen_Color#=0;#Pen_Size#=1;#Legend_Type#=LEGEND_OBJECTSTYLE;@ENDVALU;@PRMT=4@ENDPRMT;@ENDPROP;@PROP=@NAME=Legend@ENDNAME;@TYPE=LEGEND_STYLE_SETTINGS@ENDTYPE;@VALU=#TITLE#=Legend;#HEADINGSIZE#=16;#FONTCOLOR#=6303744;#BACKGROUNDCOLOR#=13741727;#BORDERCOLOR#=12754832;#BACKGROUNDISDEFAULT#=0;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;$DES;$CLT={C5A24AC1-D9C7-48b3-8A7E-E022568CFA64}$CLT;$ENDXREF;"/>
+									</UML:ModelElement.taggedValue>
+								</UML:Comment>
+							</UML:Namespace.ownedElement>
+						</UML:Package>
+						<UML:Package name="Example Instances" xmi.id="EAPK_DC0C2832_26F3_491d_8820_34C50228EB9E" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Intensiteit van de behandeling.&#xA;Soort behandeling: ambulant."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:30"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:31"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="9"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Instructions" xmi.id="EAPK_78A18B98_8B4C_4adf_A194_338EF58981A8" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Conform gepast gebruik dient de wijze van verantwoording over de beheersing van de risico’s (werking) te worden beschreven.&#xA;C1: Beschrijving van de wijze waarop de basisregistratieset is geïmplementeerd.&#xA;Dit met onderliggende procedures en werkvoorschriften voor behandelaren (inclusief overzicht vorm en inhoud registratieset) conform het Kwaliteitsstatuut. &#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:31"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:36:56"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="10"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Interpretation" xmi.id="EAPK_B4C19882_4C91_4f1b_93D9_FF2E359046F4" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Bij het vaststellen van het behandelplan bepaalt de zorgprofessional op basis van de richtlijnen (evidentie) welke vorm van verblijf daarbij van toepassing is.&#xA;De keuze bestaat uit een van de volgende opties: &#xA;&#xA;- Ambulant&#xA;- Dag behandeling&#xA;- Verblijf met overnachting (VMO) &#xA;- Verblijf zonder overnachting (VZO) &#xA;- Verblijf met rechtvaardigingsgrond (VMR)"/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:32"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:32"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="11"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Care Process" xmi.id="EAPK_60D172CD_383F_4a65_A891_0D00E7AFDC33" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Dit wordt normaliter tijdens de diagnosefase bepaald."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:32"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:33"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="12"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Example of the Instrument" xmi.id="EAPK_165D33E4_2149_4c8c_936D_4C513BE47AA9" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Er is geen instrument bekend."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:33"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:33"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="13"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Constraints" xmi.id="EAPK_8E43ED22_D325_4032_B090_93DCAD8BCAD3" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Er zijn geen inperkingen bekend."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:33"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:34"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="14"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Issues" xmi.id="EAPK_28A1341E_EEDE_4fc9_9392_BED356FB265F" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Het is de vraag of de keuzes enkelvoudige zijn, of dat er in een behandelplan meer opties kunnen worden gekozen. Bv starten met MVO, dan VZO, dan ambulant."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:34"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 10:00:03"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="15"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="References" xmi.id="EAPK_18A88733_0CCA_4653_B322_7C3DEF824524" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Taskforce Gepast Gebruik ggz.  AdviesTaskforce Gepast Gebruik ggz, 2019. https://www.rijksoverheid.nl/documenten/rapporten/2019/04/23/adviestaskforce-gepast-gebruik-ggz "/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:35"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:35"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="16"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Traceability to other Standards" xmi.id="EAPK_B5EB9254_6CB7_47cd_AFBB_1C6EB2C848B1" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Dit is afgeleid van de afspraken gepast gebruik."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:35"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:36"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="17"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Disclaimer" xmi.id="EAPK_375A5090_6A6C_4bb9_B709_1EDB396C451B" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="GGZ Nederland in de rol van opdrachtgever en Results 4 Care B.V. als uitvoerder besteden de grootst mogelijke zorg aan de betrouwbaarheid en actualiteit van de gegevens in deze Zorg Informatie Bouwsteen (zib). Onjuistheden en onvolledigheden kunnen echter voorkomen. GGZ Nederland en Results 4 Care zijn niet aansprakelijk voor schade als gevolg van onjuistheden of onvolledigheden in de aangeboden informatie, noch voor schade die het gevolg is van problemen veroorzaakt door, of inherent aan het verspreiden van informatie via het internet, zoals storingen of onderbrekingen van of fouten of vertraging in het verstrekken van informatie of diensten door GGZ Nederland of Results 4 Care, of door U aan GGZ Nederland of Results 4 Care via een website van GGZ Nederland of Results 4 Care of via e-mail, of anderszins langs elektronische weg.&#xA;&#xA;Tevens aanvaarden GGZ Nederland en Results 4 Care geen aansprakelijkheid voor eventuele schade die geleden wordt als gevolg van het gebruik van gegevens, adviezen of ideeën verstrekt door of namens GGZ Nederland of Results 4 Care via deze zib. GGZ Nederland en Results 4 Care aanvaarden geen verantwoordelijkheid voor de inhoud van informatie in deze zib waarnaar of waarvan met een hyperlink of anderszins wordt verwezen.&#xA;&#xA;In geval van tegenstrijdigheden in de genoemde zib documenten en bestanden geeft de meest recente en hoogste versie van de vermelde volgorde in de revisies de prioriteit van de desbetreffende documenten weer.&#xA;&#xA;Indien informatie die in de elektronische versie van deze zib is opgenomen ook schriftelijk wordt verstrekt, zal in geval van tekstverschillen de schriftelijke versie bepalend zijn. Dit geldt indien de versieaanduiding en datering van beiden gelijk is. Een definitieve versie heeft prioriteit echter boven een conceptversie. Een gereviseerde versie heeft prioriteit boven een eerdere versie.&#xA;"/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:36"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:36"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="18"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Terms of Use" xmi.id="EAPK_035B3775_D46A_4b2e_A19B_59632369B059" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="De gebruiker mag de informatie van deze Zorginformatiebouwsteen kopiëren, verspreiden en doorgeven, onder de voorwaarden, die gelden voor Creative Commons licentie Naamsvermelding-NietCommercieel-GelijkDelen 3.0 Nederland (CC BY-NC-SA-3.0).De inhoud is beschikbaar onder de Creative Commons Naamsvermelding-NietCommercieel-GelijkDelen 3.0 (zie ook http://creativecommons.org/licenses/by-nc-sa/3.0/nl/).&#xA;The user may copy, distribute and pass on the information in this Health and Care Information Model under the conditions that apply for Creative Commons license Attribution-NonCommercial-ShareAlike 3.0 Netherlands (CC BY-NCSA-3.0). The content is available under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (see also http://creativecommons.org/licenses/by-nc-sa/3.0/nl/)."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:37"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:37"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="19"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+						<UML:Package name="Copyrights" xmi.id="EAPK_2C21B414_3710_4fc1_9927_9CDD940ECA47" isRoot="false" isLeaf="false" isAbstract="false" visibility="public">
+							<UML:ModelElement.taggedValue>
+								<UML:TaggedValue tag="documentation" value="Er zijn geen copyrights bekend t.a.v het beleidsstuk gepast gebruik. Het gaat om publieke informatie."/>
+								<UML:TaggedValue tag="parent" value="EAPK_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+								<UML:TaggedValue tag="created" value="2020-01-09 08:35:37"/>
+								<UML:TaggedValue tag="modified" value="2020-01-09 08:35:38"/>
+								<UML:TaggedValue tag="iscontrolled" value="FALSE"/>
+								<UML:TaggedValue tag="isprotected" value="FALSE"/>
+								<UML:TaggedValue tag="usedtd" value="FALSE"/>
+								<UML:TaggedValue tag="logxml" value="FALSE"/>
+								<UML:TaggedValue tag="tpos" value="20"/>
+								<UML:TaggedValue tag="batchsave" value="0"/>
+								<UML:TaggedValue tag="batchload" value="0"/>
+								<UML:TaggedValue tag="phase" value="1.0"/>
+								<UML:TaggedValue tag="status" value="Proposed"/>
+								<UML:TaggedValue tag="author" value="William Goossen"/>
+								<UML:TaggedValue tag="complexity" value="1"/>
+								<UML:TaggedValue tag="ea_stype" value="Public"/>
+							</UML:ModelElement.taggedValue>
+							<UML:Namespace.ownedElement/>
+						</UML:Package>
+					</UML:Namespace.ownedElement>
+				</UML:Package>
+				<UML:Stereotype xmi.id="EAID_3BF077B4_DF72_4650_BF0E_F47461FAADE7" name="DCM" isRoot="false" isLeaf="false" isAbstract="false">
+					<UML:Stereotype.baseClass>Package</UML:Stereotype.baseClass>
+				</UML:Stereotype>
+			</UML:Namespace.ownedElement>
+		</UML:Model>
+		<UML:TaggedValue tag="DCM::CoderList" xmi.id="EAID_499B3150_B9D8_4fd8_A47D_033DBD2953C6" value="William Goossen" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Address" xmi.id="EAID_B63D7ECB_3C1D_48fc_A716_6882CDC73C08" value="info@ggznederland.nl " modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Name" xmi.id="EAID_C04B67E4_F492_4a52_B0C5_E96C714E7C7D" value="GGZ Nederland#NOTES#The contact information where questions can be asked or feedback can be send to." modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ContactInformation.Telecom" xmi.id="EAID_B67FAD19_3759_4f32_A56B_B85A78FFB509" value="wgoossen@ggznederland.nl" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ContentAuthorList" xmi.id="EAID_BE51F328_4FFC_4550_802E_4632BDA851C9" value="Bas van der Hoorn, William Goossen#NOTES#Names of the people that contributed to the development of the DCM. The organization these people work for is also mentioned. The position of the author can be mentioned." modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::CreationDate" xmi.id="EAID_CA0E4293_E76D_4878_9559_2640D26EFBEC" value="2020" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::DeprecatedDate" xmi.id="EAID_76EE629F_2C29_4c40_B537_E4FD98902D22" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::DescriptionLanguage" xmi.id="EAID_A10BF4EB_B483_4800_A627_3BFF626BDD90" value="nl#NOTES#The languages in which the DCM is developed. This can be only Dutch or English, or both, or other languages." modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Address" xmi.id="EAID_28B634BD_B03B_4930_909B_AB1448179E7A" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Name" xmi.id="EAID_50851D1F_AFE1_42e0_A0E6_946F8CC38CCE" value="*#NOTES#This is the authority that approved the clinical contents of the DCM. This can be scientific or professional organisations, or institutes of quality, normalisation institutes, governments etc." modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::EndorsingAuthority.Telecom" xmi.id="EAID_ED88050B_5B4C_4237_9AEB_5616DA868495" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::Id" xmi.id="EAID_4574860E_541F_403a_B924_FFBFEE323FCF" value="2.16.840.1.113883.3.3210.14.1.5" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::KeywordList" xmi.id="EAID_C4A76963_F863_48d9_9221_ADB73FC2ABFA" value="intensiteit behandeling, verblijf, ambulant, dagbehandeling#NOTES#Here keywords and codes for keywords are mentioned. This concerns keywords by which the DCM can be found in a repository. A keyword can be a synonym, a derivative term or a generic ( like the Bradenscale with a keyword Pressure Ulcer Risk).&#xA;Concepts and identifications from MeSH Heading can also be mentioned here." modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::LifecycleStatus" xmi.id="EAID_6B80F017_AE33_47cd_8521_6D65642EEF17" value="Draft" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ModelerList" xmi.id="EAID_620B399F_6388_4e92_88D0_2CD0CA60F454" value="William Goossen" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::Name" xmi.id="EAID_93434A5A_A47B_4ccd_AD92_D1E601663D0E" value="nl.ggznederland.intensiteitbehandeling" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::PublicationDate" xmi.id="EAID_CF6EF5C7_0A05_4185_8411_DEF16FADEE3C" value="#NOTES#The date this version was made." modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::PublicationStatus" xmi.id="EAID_33A08AE6_B44E_422a_A110_5035A602412A" value="Unpublished#NOTES#The status of the DCM on that moment. Strike out the other status.&#xA;All status levels are mentioned after the process of development and review are clear (concept).&#xA;&#xA;Author Draft(en);&#xA;Committee Draft(en);&#xA;Organisation Draft(en);&#xA;Submitted(en);&#xA;Withdrawn&#xA;Rejected(en) &#xA;Obsolete&#xA;Approved for testing&#xA;Approved for Production Use&#xA;Superseded" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ReviewerList" xmi.id="EAID_CF436C09_DBC4_4175_906E_3BD1DA599550" value="redactieraad zibs ggz" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::RevisionDate" xmi.id="EAID_170A7933_EE51_4df8_8AB8_7CE28FC8D40D" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::Superseeds" xmi.id="EAID_437C82AF_0FE2_4e8f_9C2D_EE764068ECBE" value="*" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::Version" xmi.id="EAID_D150EE73_5905_4ad7_A4DC_DDFF841D886A" value="0.1" modelElement="MX_EAID_41C4DA42_8004_47e7_8C57_1A52CD51057F"/>
+		<UML:TaggedValue tag="DCM::ConceptId" xmi.id="EAID_BBCB97CE_7F9D_4338_B4BB_5C3E2A72E9B0" value="NL-CM:" modelElement="EAID_7E51B3D6_E0AB_4778_97F1_001AF9E2D6C7"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_D6DAF23F_8E83_4e80_86F2_C2CC83860B02" value="GGZ Nederland: INTB0001" modelElement="EAID_7E51B3D6_E0AB_4778_97F1_001AF9E2D6C7"/>
+		<UML:TaggedValue tag="DCM::ValueSetId" xmi.id="EAID_80E8ADEA_8E8C_404c_A605_F31F64DC4DC9" modelElement="EAID_8C00A1D7_4194_423d_9E89_F626795B6EBD"/>
+		<UML:TaggedValue tag="DCM::ConceptId" xmi.id="EAID_BEAB74C8_1D19_49ec_A7AB_2E9F42E9247E" value="NL-CM:" modelElement="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693"/>
+		<UML:TaggedValue tag="DCM::DefinitionCode" xmi.id="EAID_A6532B51_6829_4412_9B33_E5A3002404C6" value="SnomedCT: 410234004 | Management of mental health treatment (procedure) |" modelElement="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693"/>
+		<UML:TaggedValue tag="DCM::DefinitonCode" xmi.id="EAID_5884C153_22CB_4c52_BC44_99499D8EC62A" value="SnomedCT: 410234004 | Management of mental health treatment (procedure) |" modelElement="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693"/>
+		<UML:TaggedValue tag="DCM::ValueSet" xmi.id="EAID_6D4E9BEF_4746_4671_9AE1_AA7CEC5CE886" value="SoortenGGZBehandelingen#NOTES#OID: 2.16.840.1.113883.2.4.3.11.60.40.2.x.x.x" modelElement="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693"/>
+		<UML:Diagram name="Information Model" xmi.id="EAID_3F7D49BD_DF1A_48dd_BFB3_A041E4766B30" diagramType="ClassDiagram" owner="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380" toolName="Enterprise Architect 2.5">
+			<UML:ModelElement.taggedValue>
+				<UML:TaggedValue tag="version" value="0.1"/>
+				<UML:TaggedValue tag="author" value="william goossen"/>
+				<UML:TaggedValue tag="created_date" value="2020-01-09 00:00:00"/>
+				<UML:TaggedValue tag="modified_date" value="2020-01-09 09:58:33"/>
+				<UML:TaggedValue tag="package" value="EAPK_5C95A123_1489_4d10_BF6E_502C28B4D380"/>
+				<UML:TaggedValue tag="type" value="Logical"/>
+				<UML:TaggedValue tag="swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;hl=1;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:ARIAL,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+				<UML:TaggedValue tag="matrixitems" value="locked=false;matrixactive=false;swimlanesactive=true;kanbanactive=false;width=1;clrLine=0;"/>
+				<UML:TaggedValue tag="ea_localid" value="1246"/>
+				<UML:TaggedValue tag="EAStyle" value="ShowPrivate=1;ShowProtected=1;ShowPublic=1;HideRelationships=0;Locked=0;Border=1;HighlightForeign=1;PackageContents=1;SequenceNotes=0;ScalePrintImage=0;PPgs.cx=1;PPgs.cy=1;DocSize.cx=1169;DocSize.cy=827;ShowDetails=0;Orientation=L;Zoom=100;ShowTags=0;OpParams=1;VisibleAttributeDetail=0;ShowOpRetType=1;ShowIcons=1;CollabNums=0;HideProps=0;ShowReqs=0;ShowCons=0;PaperSize=9;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideElemStereo=0;ShowTests=0;ShowMaint=0;ConnectorNotation=UML 2.1;ExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ShowNotes=0;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;"/>
+				<UML:TaggedValue tag="styleex" value="SaveTag=853027BD;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;"/>
+			</UML:ModelElement.taggedValue>
+			<UML:Diagram.element>
+				<UML:DiagramElement geometry="Left=62;Top=67;Right=163;Bottom=202;" subject="EAID_C5A24AC1_D9C7_48b3_8A7E_E022568CFA64" seqno="1" style="DUID=3D1A67DA;"/>
+				<UML:DiagramElement geometry="Left=441;Top=221;Right=608;Bottom=271;" subject="EAID_8C00A1D7_4194_423d_9E89_F626795B6EBD" seqno="2" style="DUID=59570B54;"/>
+				<UML:DiagramElement geometry="Left=240;Top=209;Right=361;Bottom=279;" subject="EAID_96BB88BB_D777_40c7_A6AC_4C6642FA0693" seqno="3" style="DUID=97AB17EF;"/>
+				<UML:DiagramElement geometry="Left=235;Top=76;Right=365;Bottom=146;" subject="EAID_7E51B3D6_E0AB_4778_97F1_001AF9E2D6C7" seqno="4" style="LWth=3;DUID=D6D80427;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_B12628C3_6A34_4b9f_AE2B_77CE35F35B2B" style="Mode=3;EOID=D6D80427;SOID=97AB17EF;Color=-1;LWidth=0;Hidden=0;"/>
+				<UML:DiagramElement geometry="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;Path=;" subject="EAID_D61B804B_F289_4180_A3F3_4C2DD6C40A5E" style="Mode=3;EOID=97AB17EF;SOID=59570B54;Color=-1;LWidth=0;Hidden=0;"/>
+			</UML:Diagram.element>
+		</UML:Diagram>
+	</XMI.content>
+	<XMI.difference/>
+	<XMI.extensions xmi.extender="Enterprise Architect 2.5">
+		<EAStub xmi.id="EAID_FA92CB33_6CA4_4c65_9339_687DFAD179D5" name="CD" UMLType="Class"/>
+		<EAModel.paramSub/>
+	</XMI.extensions>
+</XMI>
